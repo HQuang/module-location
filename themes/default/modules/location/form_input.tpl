@@ -101,7 +101,6 @@
 <script>
 $(document).ready(function() {
     $('#countryid-{CONFIG.index}, #provinceid-{CONFIG.index}, #districtid-{CONFIG.index}, #wardid-{CONFIG.index}').select2({
-        theme: 'bootstrap',
         language: '{NV_LANG_INTERFACE}'
     });
 
